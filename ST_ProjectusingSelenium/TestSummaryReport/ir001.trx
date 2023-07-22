@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a0c1dab5-4789-4812-a598-a4d419e56867" name="hp2022@DESKTOP-96KMLL0 2023-06-10 18:20:46" runUser="DESKTOP-96KMLL0\hp2022" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-06-10T18:20:46.1602419+05:00" queuing="2023-06-10T18:20:46.1602419+05:00" start="2023-06-10T18:20:32.1088203+05:00" finish="2023-06-10T18:20:46.4726554+05:00" />
+  <TestSettings name="default" id="f17412f0-cee7-48fb-a59f-594c827592b7">
+    <Deployment runDeploymentRoot="hp2022_DESKTOP-96KMLL0_2023-06-10_18_20_46" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e2ea804d-4592-4c47-97e1-d7c1b55e144c" testId="4100119d-ddd8-4615-9717-8bb5343baaea" testName="Loginwithvaildcredentials_001" computerName="DESKTOP-96KMLL0" duration="00:00:13.1878451" startTime="2023-06-10T18:20:32.5305801+05:00" endTime="2023-06-10T18:20:46.0040297+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2ea804d-4592-4c47-97e1-d7c1b55e144c" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Loginwithvaildcredentials_001" storage="c:\users\hp2022\source\repos\st_projectusingselenium\st_projectusingselenium\bin\debug\st_projectusingselenium.dll" id="4100119d-ddd8-4615-9717-8bb5343baaea">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SeleniumwithPOM" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="e2ea804d-4592-4c47-97e1-d7c1b55e144c" />
+      <TestMethod codeBase="C:\Users\hp2022\source\repos\ST_ProjectusingSelenium\ST_ProjectusingSelenium\bin\Debug\ST_ProjectusingSelenium.dll" adapterTypeName="executor://mstestadapter/v2" className="ST_ProjectusingSelenium.TestsExecutionClass" name="Loginwithvaildcredentials_001" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4100119d-ddd8-4615-9717-8bb5343baaea" executionId="e2ea804d-4592-4c47-97e1-d7c1b55e144c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
